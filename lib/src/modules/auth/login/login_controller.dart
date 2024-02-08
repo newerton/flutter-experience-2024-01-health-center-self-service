@@ -1,6 +1,6 @@
 import 'package:asyncstate/asyncstate.dart';
-import 'package:flutter_experience_medical_laboratory_core/flutter_experience_medical_laboratory_core.dart';
-import 'package:flutter_experience_medical_laboratory_pdv/src/services/user/user_login_service.dart';
+import 'package:health_center_core/health_center_core.dart';
+import 'package:health_center_self_service/src/services/user/user_login_service.dart';
 
 import 'package:signals_flutter/signals_flutter.dart';
 

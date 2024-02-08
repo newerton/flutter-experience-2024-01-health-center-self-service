@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_experience_medical_laboratory_core/flutter_experience_medical_laboratory_core.dart';
+import 'package:health_center_core/health_center_core.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
     final sizeOf = MediaQuery.sizeOf(context);
 
     return Scaffold(
-      appBar: MedicalLaboratoryAppBar(
+      appBar: HealthCenterAppBar(
         actions: [
           PopupMenuButton(
             child: const IconPopupMenuWidget(),
@@ -40,12 +40,11 @@ class _HomePageState extends State<HomePage> {
             decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(10),
-                border: Border.all(color: MedicalLaboratoryTheme.orangeColor)),
+                border: Border.all(color: HealthCenterTheme.orangeColor)),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const Text('Welcome!',
-                    style: MedicalLaboratoryTheme.titleStyle),
+                const Text('Welcome!', style: HealthCenterTheme.titleStyle),
                 const SizedBox(height: 32),
                 SizedBox(
                   width: sizeOf.width * 0.8,

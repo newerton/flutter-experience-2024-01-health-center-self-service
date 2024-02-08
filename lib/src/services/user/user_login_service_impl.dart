@@ -1,6 +1,6 @@
-import 'package:flutter_experience_medical_laboratory_core/flutter_experience_medical_laboratory_core.dart';
-import 'package:flutter_experience_medical_laboratory_pdv/src/repositories/user/user_repository.dart';
-import 'package:flutter_experience_medical_laboratory_pdv/src/services/user/user_login_service.dart';
+import 'package:health_center_core/health_center_core.dart';
+import 'package:health_center_self_service/src/repositories/user/user_repository.dart';
+import 'package:health_center_self_service/src/services/user/user_login_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserLoginServiceImpl implements UserLoginService {

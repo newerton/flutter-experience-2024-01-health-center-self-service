@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "flutter-experience-2024-01-medical-laboratory-pdv (dev mode)",
+      "name": "flutter-experience-2024-01-health-center-self-service (dev mode)",
       "request": "launch",
       "type": "dart",
       "args": [
@@ -14,13 +14,13 @@
       ],
     },
     {
-      "name": "flutter-experience-2024-01-medical-laboratory-pdv (profile mode)",
+      "name": "flutter-experience-2024-01-health-center-self-service (profile mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile"
     },
     {
-      "name": "flutter-experience-2024-01-medical-laboratory-pdv (release mode)",
+      "name": "flutter-experience-2024-01-health-center-self-service (release mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "release"

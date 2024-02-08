@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_experience_medical_laboratory_core/flutter_experience_medical_laboratory_core.dart';
-import 'package:flutter_experience_medical_laboratory_pdv/src/modules/auth/login/login_controller.dart';
+import 'package:health_center_core/health_center_core.dart';
+import 'package:health_center_self_service/src/modules/auth/login/login_controller.dart';
 import 'package:flutter_getit/flutter_getit.dart';
 import 'package:signals_flutter/signals_flutter.dart';
 import 'package:validatorless/validatorless.dart';
@@ -61,8 +61,7 @@ class _LoginPageState extends State<LoginPage> with MessagesViewMixin {
                 key: formKey,
                 child: Column(
                   children: [
-                    const Text('Login',
-                        style: MedicalLaboratoryTheme.titleStyle),
+                    const Text('Login', style: HealthCenterTheme.titleStyle),
                     const SizedBox(height: 32),
                     TextFormField(
                       controller: emailEC,

@@ -1,4 +1,4 @@
-package br.com.adademiadoflutter.flutter_experience_medical_laboratory_pdv
+package br.com.adademiadoflutter.health_center_self_service
 
 import io.flutter.embedding.android.FlutterActivity
 

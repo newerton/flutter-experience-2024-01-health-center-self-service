@@ -2,8 +2,8 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_experience_medical_laboratory_core/flutter_experience_medical_laboratory_core.dart';
-import 'package:flutter_experience_medical_laboratory_pdv/src/repositories/user/user_repository.dart';
+import 'package:health_center_core/health_center_core.dart';
+import 'package:health_center_self_service/src/repositories/user/user_repository.dart';
 
 class UserRepositoryImpl implements UserRepository {
   UserRepositoryImpl({required this.restClient});

@@ -1,4 +1,4 @@
-name: flutter_experience_medical_laboratory_pdv
+name: health_center_self_service
 description: "A new Flutter package project."
 version: 0.0.1
 homepage: "https://www.example.com"
@@ -16,8 +16,8 @@ dependencies:
   dotted_border: ^2.1.0
   flutter:
     sdk: flutter
-  flutter_experience_medical_laboratory_core:
-    path: ../flutter-experience-2024-01-medical-laboratory-core
+  health_center_core:
+    path: ../flutter-experience-2024-01-health-center-core
   flutter_getit: ^2.0.0
   json_annotation: ^4.8.1
   shared_preferences: ^2.2.2
