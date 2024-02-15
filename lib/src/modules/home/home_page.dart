@@ -50,7 +50,10 @@ class _HomePageState extends State<HomePage> {
                   width: sizeOf.width * 0.8,
                   height: 48,
                   child: ElevatedButton(
-                      onPressed: () {}, child: const Text('Start Terminal')),
+                      onPressed: () {
+                        Navigator.of(context).pushNamed('/register');
+                      },
+                      child: const Text('Start Terminal')),
                 )
               ],
             ),
