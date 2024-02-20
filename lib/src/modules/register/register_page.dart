@@ -37,7 +37,8 @@ class _RegisterPageState extends State<RegisterPage> with MessagesViewMixin {
           case FormSteps.done:
             baseRoute += 'done';
           case FormSteps.restart:
-            baseRoute += 'restart';
+            Navigator.of(context).popUntil(ModalRoute.withName('/register'));
+            controller.startProcess();
             return;
         }
 
