@@ -97,6 +97,7 @@ class _PatientPageState extends State<PatientPage>
                             visible: patientFound,
                             replacement: const Text(
                               'Please, fill in the fields below to complete your registration',
+                              textAlign: TextAlign.center,
                               style: TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w500,
@@ -105,6 +106,7 @@ class _PatientPageState extends State<PatientPage>
                             ),
                             child: const Text(
                               'Confirm your registration details',
+                              textAlign: TextAlign.center,
                               style: TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w500,
