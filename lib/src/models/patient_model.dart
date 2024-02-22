@@ -1,4 +1,4 @@
-import 'package:health_center_self_service/src/models/patient_address_modal.dart';
+import 'package:health_center_self_service/src/models/patient_address_model.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'patient_model.g.dart';
@@ -22,7 +22,7 @@ class PatientModel {
   @JsonKey(name: 'phone_number')
   final String phoneNumber;
   final String document;
-  final PatientAddressModal address;
+  final PatientAddressModel address;
   @JsonKey(name: 'guardian', defaultValue: '')
   final String guardian;
   @JsonKey(name: 'guardian_identification_number', defaultValue: '')
@@ -39,7 +39,7 @@ class PatientModel {
     String? email,
     String? phoneNumber,
     String? document,
-    PatientAddressModal? address,
+    PatientAddressModel? address,
     String? guardian,
     String? guardianIdNumber,
   }) {

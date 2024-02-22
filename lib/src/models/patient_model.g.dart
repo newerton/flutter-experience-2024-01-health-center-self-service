@@ -13,7 +13,7 @@ PatientModel _$PatientModelFromJson(Map<String, dynamic> json) => PatientModel(
       phoneNumber: json['phone_number'] as String,
       document: json['document'] as String,
       address:
-          PatientAddressModal.fromJson(json['address'] as Map<String, dynamic>),
+          PatientAddressModel.fromJson(json['address'] as Map<String, dynamic>),
       guardian: json['guardian'] as String? ?? '',
       guardianIdNumber: json['guardian_identification_number'] as String? ?? '',
     );

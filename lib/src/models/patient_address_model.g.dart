@@ -1,13 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'patient_address_modal.dart';
+part of 'patient_address_model.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-PatientAddressModal _$PatientAddressModalFromJson(Map<String, dynamic> json) =>
-    PatientAddressModal(
+PatientAddressModel _$PatientAddressModelFromJson(Map<String, dynamic> json) =>
+    PatientAddressModel(
       cep: json['cep'] as String,
       streetAddress: json['street_address'] as String,
       number: json['number'] as String,
@@ -17,8 +17,8 @@ PatientAddressModal _$PatientAddressModalFromJson(Map<String, dynamic> json) =>
       district: json['district'] as String,
     );
 
-Map<String, dynamic> _$PatientAddressModalToJson(
-        PatientAddressModal instance) =>
+Map<String, dynamic> _$PatientAddressModelToJson(
+        PatientAddressModel instance) =>
     <String, dynamic>{
       'cep': instance.cep,
       'street_address': instance.streetAddress,
